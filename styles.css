@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-family: 'Arial';
+    background: rgb(245, 213, 70);
+    color: rgb(150, 134, 29);
+}
+img {
+    width: 200px;
+    height: 900px
+}
+table {
+    border-collapse: collapse; /*prevents double borders*/
+    width: 100%; /*optional: set table width*/
+}
+
+th, td{
+    border-bottom: 1px solid #ddd; /* add a thin gray line at the bottom*/
+    padding: 8px; /* optional: add some padding*/
+    text-align: center;
+}
